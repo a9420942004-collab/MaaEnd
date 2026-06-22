@@ -160,12 +160,14 @@
                 ]
             }
         },
-        "action": "Click",
-        "post_wait_freezes": 500,
-        "next": [
-            "__AccountSwitchOCRSelectAccount"
-        ]
-    },
+        
+    "pre_wait_freezes": 800,
+    "action": "Click",
+    "post_wait_freezes": 1000,
+    "next": [
+        "_AccountSwitchOCRSelectAccount"
+    ]
+
     "__AccountSwitchOCRSelectAccount": {
         "desc": "OCR识别账号后四位并点击",
         "recognition": {
